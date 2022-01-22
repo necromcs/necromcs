@@ -1,0 +1,45 @@
+/*
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+* │                                                                   │
+* │                               Form                                │
+* │                                                                   │
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+*/
+
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: var(--primary) solid 0.2rem !important;
+}
+
+.form-control {
+    background: var(--form) !important;
+    color: var(--form) !important;
+    border: var(--form) solid 0.2rem !important;
+    transition: 0.2s ease !important;
+}
+
+.btn-orn-to {
+    background: var(--primary) !important;
+    color: white !important;
+}
+
+.form-select:focus,
+.form-select:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: var(--primary) solid 0.2rem !important;
+}
+
+.form-select {
+    background: var(--form) !important;
+    color: var(--form) !important;
+    border: var(--form) solid 0.2rem !important;
+    transition: 0.2s ease !important;
+}
+
+.btn-orn-to {
+    background: var(--primary) !important;
+    color: white !important;
+}

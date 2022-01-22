@@ -1,0 +1,55 @@
+/*
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+* │                                                                   │
+* │                     Bootstrap Navigation Bar                      │
+* │                                                                   │
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+*/
+
+.navbar {
+    background: #131313 !important;
+    padding: 25px 10px !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand i {
+    font-size: 25px;
+    font-weight: 900 !important;
+}a
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.toggler-icon {
+    width: 30px;
+    height: 3px;
+    background: #e74c3c;
+    display: block;
+    transition: all 0.2s;
+}
+
+#navbarNav > ul > li:nth-child(n) > a {
+    color: #ffffff;
+    opacity: 60%;
+    transition: 0.6s ease;
+    margin-left: 1.5rem;
+}
+
+#navbarNav > ul > li:nth-child(n) > a:hover {
+    opacity: 90%;
+}
